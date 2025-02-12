@@ -19,4 +19,17 @@ int main ( ) {
 	printf ("Hola, %s este es el primer programa del curso PB2025\n", nombre); // el caracter \n significa un salto de linea
 
 
+         printf ("Introduce tu edad \n");
+	scanf("%i", &edad); // %i indica el tipo de variable (entero en este caso).
+	printf("¿Que temperatura marco el termometro la ultima vez que fuiste al supermercado? \n");
+	scanf ("%f", &temperatura);
+
+ 	
+	printf ("Tu edad es: %i \n", edad);
+	printf("Tu ultimo registro de temperatura fue: %f\n", temperatura);
+		
+	exit(0);
+
+
+
 }
